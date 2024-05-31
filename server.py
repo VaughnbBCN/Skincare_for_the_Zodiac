@@ -8,18 +8,18 @@ queue_name = 'task_queue'
 
 # Define star sign messages
 star_sign_messages = {
-    'aries': 'Stick with what you know works for your skin, it can be confusing to try every new skincare trend.',
-    'taurus': 'Brava taurus! You look fabulous, your routine will have you looking 30 when you are 50.',
-    'gemini': 'It might be hard for you, but try to let your natural beauty shine through.',
-    'cancer': 'You might need more than one cleanser open at a time. Let your skin tell you what it needs.',
-    'leo': 'WEAR. SUNSCREEN.',
-    'virgo': 'It is ok to treat yourself sometimes! Try a nourishing face mask.',
-    'libra': 'Separate eye creams are ok but most serums can be taken around the eye area safely.',
-    'scorpio': 'Always take your make-up off: micellar water, double cleansing whatever, just DO IT.',
-    'sagittarius': 'A facial every now and then is not a replacement for a sensible daily regime at home.',
-    'capricorn': 'Please notice if your skin needs hydration, try a mist, essence or facial oil.',
-    'aquarius': 'If you dabble in acids or retinol, remember to hydrate carefully!',
-    'pisces': 'Try a light serum and a moisturising SPF instead of separate hydration steps.',
+    'aries': 'Skincare tip delivery : Stick with what you know works for your skin, it can be confusing to try every new skincare trend.',
+    'taurus': 'Skincare tip delivery : Brava taurus! You look fabulous, your routine will have you looking 30 when you are 50.',
+    'gemini': 'Skincare tip delivery : It might be hard for you, but try to let your natural beauty shine through.',
+    'cancer': 'Skincare tip delivery : You might need more than one cleanser open at a time. Let your skin tell you what it needs.',
+    'leo': 'Skincare tip delivery : WEAR. SUNSCREEN.',
+    'virgo': 'Skincare tip delivery : It is ok to treat yourself sometimes! Try a nourishing face mask.',
+    'libra': 'Skincare tip delivery : Separate eye creams are ok but most serums can be taken around the eye area safely.',
+    'scorpio': 'Skincare tip delivery : Always take your make-up off: micellar water, double cleansing whatever, just DO IT.',
+    'sagittarius': 'Skincare tip delivery : A facial every now and then is not a replacement for a sensible daily regime at home.',
+    'capricorn': 'Skincare tip delivery : Please notice if your skin needs hydration, try a mist, essence or facial oil.',
+    'aquarius': 'Skincare tip delivery : If you dabble in acids or retinol, remember to hydrate carefully!',
+    'pisces': 'Skincare tip delivery : Try a light serum and a moisturising SPF instead of separate hydration steps.',
 }
 
 def callback(ch, method, properties, body):
