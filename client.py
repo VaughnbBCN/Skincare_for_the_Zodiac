@@ -41,6 +41,6 @@ class StarSignClient:
 
 if __name__ == '__main__':
     star_sign_client = StarSignClient()
-    star_sign = input("Enter your star sign: ").strip()
+    star_sign = input("Please make a skincare tip request by entering your starsign ").strip()
     response = star_sign_client.send_star_sign(star_sign)
     print(f"Response: {response}")
