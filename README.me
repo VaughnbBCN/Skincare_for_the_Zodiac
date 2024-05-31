@@ -17,6 +17,13 @@ The star_sign_client opens a StarSignClient class object and then uses the user 
 Receiving data
 You should install pika. Then you should run the server file before running the client code. The server will be listening for the data request and return it when asked. When you look at server.py, you can see the skincare tips that the server will provide. 
 
+Here's a code snippet to demonstrate: 
+def callback(ch, method, properties, body):
+    star_sign = body.decode()
+    response = star_sign_messages.get(star_sign.lower(), "Unknown star sign")
+
+This is the start of the function that sends the skincare tips, which are stored in the variable star_sign_messages. 
+
 So: 
 install pika
 download server.py and client.py 
