@@ -5,6 +5,15 @@ The client.py page is an example of client code you can use to request data from
 you can directly input a starsign and the server will return a piece of skincare advice relevant to the starsign.
 When the client code is run, the current prompt (which you may modify) is "Enter your star sign:" 
 
+Here's a code snippet to demonstrate: 
+if __name__ == '__main__':
+    star_sign_client = StarSignClient()
+    star_sign = input("Enter your star sign: ").strip()
+    response = star_sign_client.send_star_sign(star_sign)
+    print(f"Response: {response}")
+
+The star_sign_client opens a StarSignClient class object and then uses the user input as the request in the next two lines. 
+
 Receiving data
 You should install pika. Then you should run the server file before running the client code. The server will be listening for the data request and return it when asked. When you look at server.py, you can see the skincare tips that the server will provide. 
 
